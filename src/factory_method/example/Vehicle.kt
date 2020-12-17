@@ -1,16 +1,16 @@
-package factory_method
+package factory_method.example
 
 interface Vehicle {
     fun deliver()
 }
 
-class Boat() : Vehicle {
+class Boat : Vehicle {
     override fun deliver() {
         println("deliver with boat")
     }
 }
 
-class Car() : Vehicle {
+class Car : Vehicle {
     override fun deliver() {
         println("deliver with car")
     }
