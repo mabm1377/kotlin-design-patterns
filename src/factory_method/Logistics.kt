@@ -1,7 +1,9 @@
 package factory_method
 
 abstract class Logistics {
-    fun someOperation(a: Any?) {}
+    fun someOperation(a: Any?) {
+        createVehicle().deliver()
+    }
     abstract fun createVehicle(): Vehicle
 }
 

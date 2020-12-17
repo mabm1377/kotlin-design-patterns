@@ -6,12 +6,12 @@ interface Vehicle {
 
 class Boat() : Vehicle {
     override fun deliver() {
-        TODO("Not yet implemented")
+        println("deliver with boat")
     }
 }
 
 class Car() : Vehicle {
     override fun deliver() {
-        TODO("Not yet implemented")
+        println("deliver with car")
     }
 }
